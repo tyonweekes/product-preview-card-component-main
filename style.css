@@ -91,6 +91,7 @@ button {
 
 button:hover, button:focus {
     background-color: var(--dark-green);
+    cursor: pointer;
 }
 
 .cart-icon {
@@ -106,9 +107,11 @@ button:hover, button:focus {
     font-size: 11px;
     text-align: center;
     margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--very-dark-blue);
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--dark-cyan);
 }
 
 /* Responsiveness */
