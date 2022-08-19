@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Product Preview Card Component](https://your-solution-url.com)
+- Solution URL: [Product Preview Card Component](https://monumental-klepon-d06904.netlify.app)
 
 ## My process
 
