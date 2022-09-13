@@ -15,17 +15,18 @@ body {
 
 /* Main Container */
 .main-container {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 /* Product Image */
 .product-image {
     height: 540px;
-    display: inline;
+    display: block;
     border-radius: 10px 0 0 10px;
-    position: relative;
-    top: 58px;
-    left: 4px;
 }
 
 /* Product Container */
@@ -115,7 +116,7 @@ button:hover, button:focus {
 }
 
 /* Responsiveness */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .product-image {
         height: 350px;
         width: 450px;
